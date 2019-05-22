@@ -20,8 +20,6 @@ public class ShanXiCenter extends ControlCenter {
         System.out.println("山西监控中心开始检查.....");
         try {
             TimeUnit.SECONDS.sleep(1);
-            int i = 1/0;
-            System.out.println(i);
         } catch (Exception e) {
             throw e;
         }
